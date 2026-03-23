@@ -15,9 +15,15 @@ const Hero = () => {
       <div className="absolute top-0 left-0 right-0 h-[2px] bg-accent/40" />
 
       <div className="container mx-auto text-center relative z-10">
+        <img
+          src={logoImg}
+          alt="NovaRoma Soluções"
+          className="h-20 md:h-28 w-auto mx-auto mb-8 opacity-0 animate-fade-up"
+          style={{ animationDelay: "100ms" }}
+        />
         <p
           className="text-sm md:text-base font-medium tracking-[0.2em] uppercase text-accent mb-6 opacity-0 animate-fade-up"
-          style={{ animationDelay: "100ms" }}
+          style={{ animationDelay: "200ms" }}
         >
           Tecnologia que trabalha por você
         </p>
