@@ -30,7 +30,7 @@ const Hero = () => {
 
         <h1
           className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold text-primary leading-[1.1] text-balance max-w-4xl mx-auto mb-8 opacity-0 animate-fade-up"
-          style={{ animationDelay: "250ms" }}
+          style={{ animationDelay: "350ms" }}
         >
           Eliminamos o trabalho complexo.{" "}
           <span className="text-accent">Você escala.</span>
