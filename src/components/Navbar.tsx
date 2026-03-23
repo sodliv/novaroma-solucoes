@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import logoImg from "@/assets/logo.png";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { Link } from "react-router-dom";
 
