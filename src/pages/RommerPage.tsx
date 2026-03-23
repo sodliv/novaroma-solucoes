@@ -496,15 +496,18 @@ const RommerPage = () => {
       </section>
 
       {/* ── FINAL CTA ────────────────────────────────────────── */}
-      <section className="relative px-6 md:px-16 py-32 overflow-hidden text-center">
+      <section
+        className="relative px-6 md:px-16 py-32 overflow-hidden text-center"
+        style={{ background: "#000000" }}
+      >
         <div
           className="absolute inset-0 pointer-events-none"
-          style={{ background: "radial-gradient(ellipse at center, rgba(150,62,0,0.14) 0%, transparent 68%)" }}
+          style={{ background: "radial-gradient(ellipse at center, rgba(0,0,0,0.6) 0%, transparent 68%)" }}
         />
         <ScrollReveal>
           <h2
             className="text-3xl md:text-5xl font-black mb-5 text-glow"
-            style={{ fontFamily: "'Cinzel', serif", color: "#000000" }}
+            style={{ fontFamily: "'Cinzel', serif", color: "#f0ddc5" }}
           >
             Pronto para transformar<br />seu atendimento?
           </h2>
