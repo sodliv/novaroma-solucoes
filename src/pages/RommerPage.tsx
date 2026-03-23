@@ -504,7 +504,7 @@ const RommerPage = () => {
         <ScrollReveal>
           <h2
             className="text-3xl md:text-5xl font-black mb-5 text-glow"
-            style={{ fontFamily: "'Cinzel', serif", color: "#f0ddc5" }}
+            style={{ fontFamily: "'Cinzel', serif", color: "#000000" }}
           >
             Pronto para transformar<br />seu atendimento?
           </h2>
