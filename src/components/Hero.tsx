@@ -38,7 +38,7 @@ const Hero = () => {
 
         <p
           className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed opacity-0 animate-fade-up"
-          style={{ animationDelay: "400ms" }}
+          style={{ animationDelay: "500ms" }}
         >
           Automação inteligente, agentes de IA e softwares sob medida para
           empresários que querem ganhar tempo, precisão e produtividade.
