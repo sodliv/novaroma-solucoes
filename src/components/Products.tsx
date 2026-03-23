@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ScrollReveal from "@/components/ScrollReveal";
 import { Button } from "@/components/ui/button";
 import { MessageSquare, Users, Sparkles, ArrowRight } from "lucide-react";
@@ -50,10 +51,10 @@ const Products = () => {
               </div>
 
               <Button variant="hero" size="lg" asChild>
-                <a href="#contato">
+                <Link to="/produtos/softwares/rommer">
                   Saiba mais sobre o Rommer
                   <ArrowRight className="ml-1" size={18} />
-                </a>
+                </Link>
               </Button>
             </div>
           </div>
