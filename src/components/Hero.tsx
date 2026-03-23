@@ -62,7 +62,7 @@ const Hero = () => {
         {/* Stats */}
         <div
           className="mt-20 grid grid-cols-3 gap-8 max-w-xl mx-auto opacity-0 animate-fade-up"
-          style={{ animationDelay: "700ms" }}
+          style={{ animationDelay: "800ms" }}
         >
           {[
             { value: "24h", label: "Atendimento autônomo" },
