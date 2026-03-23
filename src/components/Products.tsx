@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ScrollReveal from "@/components/ScrollReveal";
 import { Button } from "@/components/ui/button";
 import { MessageSquare, Users, Sparkles, ArrowRight } from "lucide-react";
