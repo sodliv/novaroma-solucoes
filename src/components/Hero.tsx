@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import logoImg from "@/assets/logo.png";
 
 const Hero = () => {
   return (
@@ -14,16 +15,22 @@ const Hero = () => {
       <div className="absolute top-0 left-0 right-0 h-[2px] bg-accent/40" />
 
       <div className="container mx-auto text-center relative z-10">
+        <img
+          src={logoImg}
+          alt="NovaRoma Soluções"
+          className="h-20 md:h-28 w-auto mx-auto mb-8 opacity-0 animate-fade-up"
+          style={{ animationDelay: "100ms" }}
+        />
         <p
           className="text-sm md:text-base font-medium tracking-[0.2em] uppercase text-accent mb-6 opacity-0 animate-fade-up"
-          style={{ animationDelay: "100ms" }}
+          style={{ animationDelay: "200ms" }}
         >
           Tecnologia que trabalha por você
         </p>
 
         <h1
           className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold text-primary leading-[1.1] text-balance max-w-4xl mx-auto mb-8 opacity-0 animate-fade-up"
-          style={{ animationDelay: "250ms" }}
+          style={{ animationDelay: "350ms" }}
         >
           Eliminamos o trabalho complexo.{" "}
           <span className="text-accent">Você escala.</span>
@@ -31,7 +38,7 @@ const Hero = () => {
 
         <p
           className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed opacity-0 animate-fade-up"
-          style={{ animationDelay: "400ms" }}
+          style={{ animationDelay: "500ms" }}
         >
           Automação inteligente, agentes de IA e softwares sob medida para
           empresários que querem ganhar tempo, precisão e produtividade.
@@ -39,7 +46,7 @@ const Hero = () => {
 
         <div
           className="flex flex-col sm:flex-row gap-4 justify-center opacity-0 animate-fade-up"
-          style={{ animationDelay: "550ms" }}
+          style={{ animationDelay: "650ms" }}
         >
           <Button variant="hero" size="lg" asChild>
             <a href="#contato">
@@ -55,7 +62,7 @@ const Hero = () => {
         {/* Stats */}
         <div
           className="mt-20 grid grid-cols-3 gap-8 max-w-xl mx-auto opacity-0 animate-fade-up"
-          style={{ animationDelay: "700ms" }}
+          style={{ animationDelay: "800ms" }}
         >
           {[
             { value: "24h", label: "Atendimento autônomo" },

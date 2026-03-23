@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import logoImg from "@/assets/logo.png";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { Link } from "react-router-dom";
 
@@ -61,8 +62,9 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto flex items-center justify-between h-16 md:h-20">
-        <Link to="/" className="font-display text-xl md:text-2xl font-semibold text-primary tracking-wide" style={{ fontFamily: "'Cinzel', serif" }}>
-          NovaRoma
+        <Link to="/" className="flex items-center gap-2.5">
+          <img src={logoImg} alt="NovaRoma" className="h-9 md:h-11 w-auto" />
+          <span className="font-display text-xl md:text-2xl font-semibold text-primary tracking-wide" style={{ fontFamily: "'Cinzel', serif" }}>NovaRoma</span>
         </Link>
 
         {/* Desktop */}
