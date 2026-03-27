@@ -48,18 +48,25 @@ const benefits = [
 
 const plans = [
   {
-    name: "Quinzenal",
-    price: "21,97",
-    period: "a cada 15 dias",
+    name: "Experimental",
+    price: "19,97",
+    period: "A cada 7 dias",
     highlight: false,
   },
   {
     name: "Mensal",
-    price: "35,97",
-    period: "por mês",
+    price: "39,97",
+    period: "A cada 30 dias",
     highlight: true,
-    badge: "Mais vantajoso",
   },
+  {
+    name: "Quinzenal",
+    price: "29,97",
+    period: "A cada 15 dias",
+    highlight: false,
+    badge: "Mais vantajoso",
+  }
+
 ];
 
 function ParticleCanvas() {
@@ -477,7 +484,7 @@ const RomaNexusPage = () => {
                       border: plan.highlight ? "none" : "1px solid rgba(175,75,0,0.3)",
                     }}
                   >
-                    Em breve
+                    Acessar
                   </button>
                 </div>
               </ScrollReveal>
@@ -486,7 +493,7 @@ const RomaNexusPage = () => {
 
           <ScrollReveal delay={300}>
             <p className="text-center text-xs mt-6" style={{ color: "rgba(175,125,75,0.45)" }}>
-              Gateway de pagamento em breve.{" "}
+              Seus clientes organizados. Seu negócio, automatizado.{" "}
               <a href="/#contato" style={{ color: "#b86828" }} className="hover:underline">
                 Fale conosco para saber mais.
               </a>
