@@ -19,7 +19,7 @@ const features = [
   {
     icon: CalendarHeart,
     title: "Parabéns Automático",
-    desc: "O RomaNexus lembra o aniversário de cada cliente e envia a mensagem no dia certo, sozinho. Ative ou desative com um clique.",
+    desc: "O Roma Nexus lembra o aniversário de cada cliente e envia a mensagem no dia certo, sozinho. Ative ou desative com um clique.",
   },
   {
     icon: BotMessageSquare,
@@ -236,7 +236,7 @@ const RomaNexusPage = () => {
           className="anim-fade-up d1 text-6xl md:text-8xl font-black leading-none mb-5 text-glow"
           style={{ fontFamily: "'Cinzel', serif", color: "#f5e0c8" }}
         >
-          RomaNexus
+          Roma Nexus
         </h1>
 
         <p className="anim-fade-up d2 text-xl md:text-2xl font-medium mb-2" style={{ color: "#c88050" }}>
@@ -512,7 +512,7 @@ const RomaNexusPage = () => {
             Pronto para transformar<br />seu atendimento?
           </h2>
           <p className="text-base mb-10 max-w-md mx-auto" style={{ color: "rgba(195,155,105,0.6)" }}>
-            Entre em contato e descubra como o RomaNexus pode trabalhar pelo seu negócio.
+            Entre em contato e descubra como o Roma Nexus pode trabalhar pelo seu negócio.
           </p>
           <a href="/#contato">
             <button
